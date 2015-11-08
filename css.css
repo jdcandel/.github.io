@@ -1,0 +1,55 @@
+<style>
+@import url(@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+body {
+	margin: 0;
+	background-color: orange;
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 40px;
+}
+h1 {
+	text-align: center;
+	position: absolute;
+	width:100%;
+	margin: 10px;
+	z-index: 99999999;
+}
+#map {
+	text-align: center;
+	background-color: teal;
+	min-height: 300px;
+	margin-bottom: 10px;
+}	
+#phoneNumber {
+	display: block;
+	margin: auto;
+	font-size: 40px;
+	margin-bottom: 10px;
+	max-width: 300px;
+	width: 90%;
+}
+::-webkit-input-placeholder {
+	text-align: center;
+}
+#coordinates {
+	text-align: center; 
+	margin: auto;
+	display: block;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+#starter {
+	margin: auto;
+	display: block;
+	width: 100%;
+	font-size: 40px;
+	margin-bottom: 10px;
+	max-width: 300px;
+	width: 90%;
+}
+#countdown {
+	text-align: center;
+	margin: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+</style>
